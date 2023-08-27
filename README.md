@@ -3,5 +3,20 @@ Compétence visée au titre RNCP Administrateur Devops: Automatiser le déploiem
 
 Arboresence des répertoires et fichiers: 
 
+•	[Ansible]
+  o	[templates]
+    ->wordpress.conf.j2
+  o	ansible.cfg
+  o	gcp_compute.yml
+  o	group_vars.yml
+  o	playbook_database.yml
+  o	playbook_wordpress.yml
+•	[Terraform]
+  o	main.tf
+•	deploiement.sh
+
+
+
+
 
 
