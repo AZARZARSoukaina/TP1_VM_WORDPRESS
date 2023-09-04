@@ -37,7 +37,7 @@ gcloud services enable iam.googleapis.com --project=$PROJET
 # Vérification de la présence des fichiers Terraform et exécution de terraform init
 if [ ! -d "Terraform" ]; then
     git clone https://github.com/AZARZARSoukaina/TP1_VM_WORDPRESS.git
-    cd TP1_VM_WORDPRESS/Terraform/
+    cd TP1_VM_WORDPRESS/Terraform
 else
     cd Terraform
 fi
