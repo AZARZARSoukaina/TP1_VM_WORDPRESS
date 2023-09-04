@@ -1,8 +1,8 @@
-#**TP1 Créer des VM sur GCP à l'aide de Terraform et déployer une application Wordpress dans ces VM avec Ansible**#
+# **TP1 Créer des VM sur GCP à l'aide de Terraform et déployer une application Wordpress dans ces VM avec Ansible**#
 
-##**Compétence visée au titre RNCP Administrateur Devops: Automatiser le déploiement d'une infrastructure dans le cloud**
+## **Compétence visée au titre RNCP Administrateur Devops: Automatiser le déploiement d'une infrastructure dans le cloud**
 
-###**Arborescence des [répertoires] et fichiers:** 
+### **Arborescence des [répertoires] et fichiers:** 
 
 *[Ansible]  
 
@@ -27,7 +27,7 @@
 deploiement.sh  
 
 
-###**Pré requis:**
+### **Pré requis:**
 
 -> Avoir un compte GCP associé à un compte de facturation ou bénéficier
 pour la première fois de l'essai des 300$ offerts.  
@@ -35,7 +35,7 @@ pour la première fois de l'essai des 300$ offerts.
 -> Activer l'éditeur Cloud Shell pour définir l'arboresence du code 
 et ouvrir le terminal gcloud CLI.  
 
-###**Schéma de présentation du déploiement:** 
+### **Schéma de présentation du déploiement:** 
 1. Cloner le dossier TP1_VM_WORDPRESS
 2. Se placer dans le dossier cloné cd TP1_VM_WORDPRESS
 3. Modifier les variables USER, PROEJT et ZONE dans le fichier déploiement.sh
