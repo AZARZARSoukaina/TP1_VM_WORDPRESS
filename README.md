@@ -7,11 +7,11 @@
 * Ansible  
   - templates  
     - wordpress.conf.j2
-- ansible.cfg
-- gcp_compute.yml
-- group_vars.yml
-- playbook_database.yml
-- playbook_wordpress.yml  
+  - ansible.cfg
+  - gcp_compute.yml
+  -  group_vars.yml
+  - playbook_database.yml
+  - playbook_wordpress.yml  
  
 * Terraform  
   - main.tf  
