@@ -4,28 +4,19 @@
 
 ### **Arborescence des [répertoires] et fichiers:** 
 
-*[Ansible]  
+* [Ansible]  
+  - [templates]  
+    - wordpress.conf.j2
+  - ansible.cfg
+  - gcp_compute.yml
+  - group_vars.yml
+  - playbook_database.yml
+  - playbook_wordpress.yml  
+ 
+* [Terraform]  
+  - main.tf  
 
-	**[templates]  
- 
-		wordpress.conf.j2  
-  
-	ansible.cfg  
- 
-	gcp_compute.yml  
- 
-	group_vars.yml  
- 
-	playbook_database.yml  
- 
-	playbook_wordpress.yml  
- 
-*[Terraform]  
-
-	**main.tf  
- 
-deploiement.sh  
-
+* deploiement.sh  
 
 ### **Pré requis:**
 
@@ -38,7 +29,7 @@ et ouvrir le terminal gcloud CLI.
 ### **Schéma de présentation du déploiement:** 
 1. Cloner le dossier TP1_VM_WORDPRESS
 2. Se placer dans le dossier cloné cd TP1_VM_WORDPRESS
-3. Modifier les variables USER, PROEJT et ZONE dans le fichier déploiement.sh
+3. Modifier les variables USER, PROJET et ZONE dans le fichier déploiement.sh
 4. Modifier la varibale projects dans Ansible/gcp_compute.yml 
 5. Modifier ou non les variables bd_user, db_pass, db_name dans Ansible/group_vars.yml 
 6. Se placer à la racine du dossier parent TP1_VM_WORDPRESS et lancer le script d'excécution : sh deploiement.sh
