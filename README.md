@@ -27,10 +27,9 @@ pour la première fois de l'essai des 300$ offerts.
 et ouvrir le terminal gcloud CLI.  
 
 ### **Schéma de présentation du déploiement:** 
-1. Cloner le dossier TP1_VM_WORDPRESS :
-     git clone https://github.com/AZARZARSoukaina/TP1_VM_WORDPRESS.git
+1. Cloner le dossier TP1_VM_WORDPRESS : git clone https://github.com/AZARZARSoukaina/TP1_VM_WORDPRESS.git
 2. Se placer dans le dossier cloné cd TP1_VM_WORDPRESS
-3. Modifier les variables USER, PROJET et ZONE dans le fichier deploiement.sh
+3. Modifier les variables **USER**, **PROJET** et **ZONE** dans le fichier deploiement.sh
 4. Modifier la variable **projects** dans Ansible/gcp_compute.yml 
 5. Modifier ou non les valeurs des variables **bd_user**, **db_pass**, **db_name** dans Ansible/group_vars.yml 
 6. Se placer à la racine du dossier parent TP1_VM_WORDPRESS et lancer le script d'exécution : sh deploiement.sh
