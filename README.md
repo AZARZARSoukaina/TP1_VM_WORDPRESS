@@ -1,4 +1,4 @@
-# **TP1 Créer des VM sur GCP à l'aide de Terraform et déployer une application Wordpress dans ces VM avec Ansible**#
+# **TP1 Créer des VM sur GCP à l'aide de Terraform et déployer une application Wordpress dans ces VM avec Ansible**
 
 ## **Compétence visée au titre RNCP Administrateur Devops: Automatiser le déploiement d'une infrastructure dans le cloud**
 
@@ -7,11 +7,11 @@
 * Ansible  
   - templates  
     - wordpress.conf.j2
-  - ansible.cfg
-  - gcp_compute.yml
-  - group_vars.yml
-  - playbook_database.yml
-  - playbook_wordpress.yml  
+- ansible.cfg
+- gcp_compute.yml
+- group_vars.yml
+- playbook_database.yml
+- playbook_wordpress.yml  
  
 * Terraform  
   - main.tf  
