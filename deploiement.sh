@@ -51,7 +51,7 @@ terraform apply -auto-approve
 ##############################################################################
 #                         Début création de la clé ssh                        #
 ##############################################################################
-# 4- Vérifier si une clé SSH est présente sur la VM, sinon en créer une
+# 4- Vérifier si une paire de clé SSH (rsa) est présente dans le cloud shell, sinon en créer une
 if [ ! -f ~/.ssh/id_rsa ]; then
     ssh-keygen -t rsa -N "" -f ~/.ssh/id_rsa -C "$USER"
 fi
