@@ -31,9 +31,10 @@ et ouvrir le terminal gcloud CLI.
 2. Se placer dans le dossier cloné ```cd TP1_VM_WORDPRESS```
 3. Modifier les variables **USER**, **PROJET** et **ZONE** dans le fichier deploiement.sh
 4. Modifier la variable **projects** dans Ansible/gcp_compute.yml 
-5. Modifier ou non les valeurs des variables **bd_user**, **db_pass**, **db_name** dans Ansible/group_vars.yml 
-6. Se placer à la racine du dossier parent TP1_VM_WORDPRESS et lancer le script d'exécution : sh deploiement.sh
-7. Attendre quelques minutes pour que le script soit entièrement exécuté, puis copier l'adresse IP pour la coller dans un navigateur. Le nom d'utilisateur à indiquer dans la page web Wordpress est le nom de l'utilisateur de la VM Wordpress. 
+5. Modifier la variable **project** dans Terraform/main.tf dans le bloc : google_project_iam_binding
+6. Modifier ou non les valeurs des variables **bd_user**, **db_pass**, **db_name** dans Ansible/group_vars.yml 
+7. Se placer à la racine du dossier parent TP1_VM_WORDPRESS et lancer le script d'exécution : sh deploiement.sh
+8. Attendre quelques minutes pour que le script soit entièrement exécuté, puis copier l'adresse IP pour la coller dans un navigateur. Le nom d'utilisateur à indiquer dans la page web Wordpress est le nom de l'utilisateur de la VM Wordpress. 
 Suivre les étapes de configuration et entrer les valeurs des variables **db_user**, **db_pass** et **bd_name** pour accéder à la base de données ainsi que le mot de passe qui sera générer. 
 
 
