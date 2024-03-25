@@ -31,9 +31,11 @@ if ! command -v ansible &> /dev/null; then
     sudo apt install -y ansible
 fi
 
+# Activation de l'API gcp
 gcloud services enable compute.googleapis.com --project=$PROJET
 gcloud services enable cloudresourcemanager.googleapis.com --project=$PROJET
 gcloud services enable iam.googleapis.com --project=$PROJET
+
 # Vérification de la présence des fichiers Terraform et exécution de terraform init
 if [ ! -d "Terraform" ]; then
     #git clone 
